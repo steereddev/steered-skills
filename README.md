@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c1b82599-1c3c-43fd-bfe5-bf2a736d68b1" width="120" alt="steered logo" />
+</p>
+
 # steered-skills
 
 > v2.0.0

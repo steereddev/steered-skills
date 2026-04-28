@@ -18,3 +18,13 @@ type "investigate" → root cause unclear, need to read output first to decide f
 - multi-line commands are allowed when needed — contractor copies via clipboard
 - for resource limits always use compact single line:
   kubectl set resources deployment/NAME --limits=cpu=500m,memory=512Mi --requests=cpu=100m,memory=128Mi -n NAMESPACE
+
+## Response Quality Rules
+
+- report each issue ONCE per resource — never duplicate
+- never report the same vulnerability or misconfiguration twice
+  with different titles or severity levels
+- if a CVE affects a resource report it as ONE issue only
+  choose the highest severity and most descriptive title
+- for CVE issues: use the CVE identifier in the title
+  example: "CVE-2026-3288: ingress-nginx RCE via rewrite-target"
